@@ -12,7 +12,7 @@ const Nav = () => {
                 handleShow(false);
             }
         };
-    
+        
         window.addEventListener("scroll", scrollHandler);
     
         return () => {
